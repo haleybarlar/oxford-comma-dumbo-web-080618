@@ -4,7 +4,7 @@ if array.size == 1
 elsif array.size == 2 
   return array.join(" and ")
 else
-  array[-1].prepend(" and ")
+  array[-1].prepend("and ")
   array.join(", ")
 end
 end
